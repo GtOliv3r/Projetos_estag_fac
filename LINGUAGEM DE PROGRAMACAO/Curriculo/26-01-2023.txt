@@ -1,0 +1,41 @@
+Anotações de aula 26/01/23 
+
+HTML 
+
+
+* "<h1>" (Tag de abertura) "Bem vindo" (conteúdo) "</h1>"  (Tag de fechamento)
+
+<h1> </h1> { --
+<h2> </h2> { --
+<h3> </h3> { --  TAMANHOS DE FONTE
+<h4> </h4> { --    
+<h5> </h5> { --
+<h6> </h6> { --
+
+
+
+
+
+* <li> </li> abertura e fechamento de lista
+
+* <b> </b> abertura e fechamento de negrito
+
+* <i> </i> abertura e fechamento de italico
+
+* <p> </p> abertura e fechamento de paragrafo
+
+
+
+
+
+* <ul> </ul> abertura e fechamento de lista desordenada (bolinha *)
+
+* <ol> </ol> abertura e fechamento de listan ordenada (enumerado)
+
+* "  <a href="../pizza/pizza.html"> Pizza: </a>  " HyperLink criado de pizza (abrira a pagina com destino
+criado no hyperlink, nesse caso ele volta na pasta "pizza" e procura a pasta "pizza.html, ai ele adentara a pagina")
+
+
+
+
+site de aprendizado de programação HTML, CSS, Python e outras: W3 schools

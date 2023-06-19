@@ -1,0 +1,56 @@
+<html>
+	<head>
+	    <meta charset="UTF-8">
+	    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	    <title>Lista 03 Exercício 03</title>
+	    <style>
+			@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;600;700;800;900&display=swap");
+			* {
+				color:antiquewhite;
+				margin: 0;
+				padding: 0;
+				box-sizing: border-box;
+				font-family: "Montserrat", sans-serif;
+			}
+	        body{
+				background: linear-gradient(241.29deg, #b445ca 20%, #390879 80%);
+                margin: 10%;
+                text-align: center;
+	        }
+            main{
+				
+				display: flex;
+	            justify-content: center;
+	            align-items: center;
+	            gap: 10px;
+            }
+
+			#btnCalcular{
+				border-radius: 5px;
+				border-width: 1.5px;
+			}
+			#n1{
+				border-radius: 5px;
+				text-align: center;
+				border-width: 1.5px;
+           
+			}
+
+	    </style>
+	</head>
+	<body>
+		<h1>Estruturas de Repetição</h1><br>
+        <p><b>Exercício 03 :</b> o usuário insere um número inteiro, e ao <b>clicar</b> no botão calcular, o resultado do fatorial deste número deve ser exibido.</p><br>
+	    <main>
+            <label for="n1">N1</label>
+            <input type="text" id="n1" value="" style="color: #390879;">
+            <p>!</p>
+            <input type="button" id="btnCalcular" value="Calcular" style="width: 100px;color: #390879;font-weight: bold;">
+        </main>
+		<br>
+		<span id="result">Resultado: </span>
+		<script src="./fatorial.js"></script>
+
+	</body>
+</html>

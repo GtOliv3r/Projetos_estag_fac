@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body{
+    color: white;
+    background-image: url(./img/edf227cd097a4550bc0f29c02ed9ff18.gif);
+    background-size: cover;
+    
+}
+#tema {
+    background-color: rgb(245, 245, 245);
+}
+h1{
+    color: black;
+}
+#nav{
+    box-shadow: -5px 4px 15px rgb(150,50,150);
+    background-color:rgb(9, 63, 58);
+    padding: 10px;
+    align-items: center;
+}
+header li{
+    transition: 0.3s;
+}
+
+header li:hover{
+font-size: large;
+}
+
+header ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style: none;
+    color: white;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+    background-image: linear-gradient(to right, rgb(20,0,30,0.8), rgb(40,0,70,0.8), rgb(20,0,30,0.8));
+}
+
+#Seja{
+    text-align: center;
+    padding: 15px;
+}
+
+#Centro{
+    text-align: center;
+    
+}
+
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(40, 0, 70);
+    padding: 10px;
+    color: rgb(218, 65, 65);
+    box-shadow: -5px 4px 15px rgb(150,50,150);
+
+}
+#contato form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#contato div{
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+}
+
+.image{
+    display: flex;
+    flex-direction: row;
+    margin-left: 350px;
+    margin-top: -105px;
+}
+
+#linguagens img{
+    display: flex;
+    flex-direction: row;
+    margin-left: 300px;
+    margin-top: -55px;
+    filter: invert(100%);
+}
+
+#sobre p{
+    margin-left: -1%;
+    margin-right: 30%;
+    display: flex;
+    flex-direction: row;
+    padding-top: 30px;
+    text-align: justify;
+    
+}
+
+#linguagens h2{
+    text-align: center;
+    padding: 15px;
+}
+
+#sobre{
+    background-color: rgb(68, 64, 71);
+    
+    box-shadow: -5px 4px 15px rgb(150,50,150);
+    padding: 20px;
+    width: 40%;
+}
+
+#Fale{
+    text-align: center;
+    padding: 15px;
+}
+
+#buttom{
+    background-color: forestgreen;
+    margin-left: 180px;
+    margin-right: 180px;
+    margin-top: -10px;
+    cursor: pointer;
+    transition: 0.3s;
+    border-radius: 4px;
+    font-size: 15px;
+    border: 1px solid #47a447;
+    padding: 4px;
+}
+
+#linguagens ul{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+#Sobre:hover{
+    transition: 0.3s;
+    font-size: large;
+}
+#linguagens img{
+    margin-top: -19%;
+}

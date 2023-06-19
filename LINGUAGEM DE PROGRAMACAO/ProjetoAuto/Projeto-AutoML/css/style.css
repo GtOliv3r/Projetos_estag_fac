@@ -1,0 +1,84 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(241.29deg, #4d4a50 10.31%, #1a1919 93.41%);
+    color: white;
+    overflow: hidden;
+    font-size: large;
+}
+
+header{
+    height: 8vh;
+    width: 100%;
+    background:linear-gradient(241.29deg, #4d4a50 10.31%, #1a1919 93.41%);
+    text-align: right;
+    box-shadow: 0px 4px 10px #ddd7d7;
+}
+
+.main1{
+    height: 84vh;
+    width: 100%;
+    background: gray;
+}
+
+section{
+    font-size: 150%;
+    margin-top: 10%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+    
+}
+
+#codeJs{
+    margin-top: 11.5%;
+border-radius: 5%;
+background-color: rgb(179, 179, 179);
+color:white;
+}
+#codeHtml{
+    margin-top: 10%;
+    border-radius: 5%;
+    background-color: rgb(179, 179, 179);
+    color:white;    
+}
+
+#run{
+    padding: 5px;
+    color:white;
+    background-color: rgb(19, 19, 19);
+    margin-top: 0.8%;
+    margin-right: 2%;
+    border-radius:10px
+}
+
+/*//////////// ids \\\\\\\\\\\\\\\\\*/
+
+#page2{
+    display: none;
+    
+}
+
+main{
+    background-color: black;
+    margin-left: 15%;
+    margin-right: 15%;
+    border-radius: 20px;
+    margin-bottom: 5%;
+    box-shadow:-1.5px -2px 15px rgb(255, 254, 254)
+}
+
+div{
+    height: 400px;
+    margin: 2.5%;
+}

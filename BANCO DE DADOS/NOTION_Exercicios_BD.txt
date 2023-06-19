@@ -1,0 +1,3 @@
+Exercícios de Banco de Dados, onde cada squad ficou responsável por desenvolver a abstração do exercício e os modelos, até a implementação e realizar pesquisas no banco. No caso, sou parte da Squad 4, que precisava realizar um banco para controle acadêmico de uma instituição estudantil.
+
+LINK DO NOTION: https://nostalgic-beanie-148.notion.site/Exerc-cios-Banco-de-Dados-f582c077dd82460a99b9082e55fe204a
